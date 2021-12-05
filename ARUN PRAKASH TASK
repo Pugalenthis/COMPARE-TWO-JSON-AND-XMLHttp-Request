@@ -1,0 +1,179 @@
+TASK 1 SIMPLE PROGRAMS TODO FOR VARIABLES
+
+1. 
+var a
+var b 
+var c 
+var d 
+console.log(a)
+console.log(b)
+console.log(c)
+console.log(d)
+
+2.
+var myvar = 1 
+console.log(myvar)
+
+3.
+var firstname ="pugalenthi"
+var lastname = "sekaran"
+var maritalstatus = "single"
+var country ="india"
+var age =22
+
+4.
+var details = {firstname:"pugalenthi",lastname:"sekaran",maritalstatus:"single",country:"india",age:22}
+
+5.
+var variables1 = "string"
+var variables2 = true
+var variables3 = undefined 
+var variables4 
+
+6.
+var person = "i am 25 years old"
+convert = parseInt(person)
+console.log(typeof convert)
+
+
+let person = "you are 30 years old"
+convert = Number(person)
+console.log(typeof convert)
+
+let person = "you are 30 years old"
+convert = +person
+console.log(typeof convert) 
+
+7.
+TRUTHY STATEMENTS
+
+let a = 6
+let b = 6 
+c = a==b
+console.log(c)
+
+let a = 6
+let b = 6 
+c = 12
+console.log(a+b===c)
+
+let a = 6
+let b = 6 
+c = a%b
+console.log(c===0)
+
+let a = 6
+let b = 6 
+c = a+b
+console.log(c===12)
+
+let a = 6
+let b = 6 
+c = a*b
+console.log(c===36)
+
+let a = 6
+let b = 6 
+c = a/b
+console.log(c===1)
+
+FALSY STATEMENTS
+
+let a = 6
+let b = 6 
+c = a!=b
+console.log(c)
+
+let a = 6
+let b = 6 
+c = 12
+console.log(a+b!=c)
+
+let a = 6
+let b = 6 
+c = a%b
+console.log(c!=0)
+
+let a = 6
+let b = 6 
+c = a+b
+console.log(c!=12)
+
+let a = 6
+let b = 6 
+c = a*b
+console.log(c!=36)
+
+let a = 6
+let b = 6 
+c = a/b
+console.log(c!==1)
+
+
+TASK 2
+1.
+let a = 5
+b = Math.pow(a,2)
+console.log(b)
+
+2.
+let a = 5;
+let b = 3;
+a = a+b;
+b = a-b;
+a = a-b;
+console.log(a)
+console.log(b)
+
+3.
+let a = 5;
+let b= 6;
+c = a+b
+console.log(c)
+
+4.
+let celsius = 32
+let fahrenheit = (celsius*1.8)+32
+console.log(fahrenheit)
+
+5.
+let metre = 10
+miles = metre*0.000621
+console.log(miles)
+
+6.
+let pounds = 50
+kg = pounds/2.2 
+console.log(kg)
+
+7.
+let scores = [24,45,56,56]
+let total = 0
+for (i=0;i<scores.length;i++) {
+  total += scores[i]  
+}
+average = total/scores.length
+console.log(average)
+
+8.
+let test = [24,45,56,56,68,55]
+let total = 0
+for (var i=0;i<5;i++) {
+  total += test[i]  
+}
+var average = total/5
+console.log(average)
+
+9.
+let x = 5;
+let y = 2;
+c = Math.pow(x,y);
+console.log(c)
+
+10.
+let P = 2000  //principal amount
+t = 1    //time (years)
+r = 10   //interest rate(percentage)
+SI = (P*t*r)/100
+console.log(SI)
+
