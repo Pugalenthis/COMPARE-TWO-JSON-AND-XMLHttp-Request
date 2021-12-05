@@ -1,0 +1,4 @@
+var obj1 = { name: "Person 1", age:5 };
+b. var obj2 = { age:5, name: "Person 1" };
+a =  JSON.stringify(obj1) ===JSON.stringify(obj2) 
+console.log(a)
